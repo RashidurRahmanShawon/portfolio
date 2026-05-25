@@ -3,8 +3,8 @@ import { motion, useInView } from 'framer-motion';
 
 const stats = [
   { value: '3+', label: 'Years Learning & Building' },
-  { value: '20+', label: 'Projects Completed' },
-  { value: '15+', label: 'Discord Systems Built' },
+  { value: '20+', label: 'Full-Stack Projects' },
+  { value: '30+', label: 'Automation Systems' },
   { value: '100%', label: 'Self-Taught' },
 ];
 
@@ -49,7 +49,7 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.25 }}
               className="text-iron text-base leading-relaxed"
             >
-              I started programming from curiosity and slowly moved into building production-style systems, Discord bots, dashboards, automation tools, and modern web applications. Over time, I focused on writing cleaner backend logic, improving user experience, and creating projects that solve real problems instead of just tutorials.
+              I started programming from curiosity and evolved into building production-grade full-stack systems, scalable backend architectures, intelligent automation tools, and modern web applications. I focus on writing robust backend logic, crafting intuitive user experiences, and developing automation solutions that eliminate repetitive work.
             </motion.p>
 
             <motion.p
@@ -58,7 +58,7 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.35 }}
               className="text-iron text-base leading-relaxed"
             >
-              My current focus is full-stack development with JavaScript technologies, scalable Discord systems, and interactive frontend experiences.
+              My expertise spans full-stack JavaScript development, backend automation systems, API architecture, and building scalable solutions. I'm passionate about process optimization and creating tools that improve workflow efficiency.
             </motion.p>
 
             <motion.div
@@ -83,11 +83,11 @@ export default function About() {
             >
               {[
                 'Full Stack Development',
-                'Discord Automation',
-                'API Integration',
-                'UI/UX Focused',
+                'Automation Engineering',
+                'API Architecture',
+                'UI/UX Design',
                 'Backend Systems',
-                'Real-Time Applications',
+                'Process Optimization',
               ].map((tag) => (
                 <span
                   key={tag}

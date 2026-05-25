@@ -9,10 +9,10 @@ const skills = [
   { name: 'React', level: 88, tag: 'UI', desc: 'Hooks, context, performance tuning' },
   { name: 'Express.js', level: 90, tag: 'BACKEND', desc: 'Middleware, routing, auth layers' },
   { name: 'MongoDB', level: 85, tag: 'DB', desc: 'Aggregations, indexing, Atlas' },
-  { name: 'Discord.js', level: 95, tag: 'BOT', desc: 'v14, slash commands, sharding' },
+  { name: 'Automation Systems', level: 90, tag: 'TOOLS', desc: 'Workflow automation, process optimization' },
+  { name: 'Discord.js', level: 95, tag: 'TOOLS', desc: 'v14, community systems, integrations' },
   { name: 'TailwindCSS', level: 90, tag: 'STYLE', desc: 'Design systems, responsive, tokens' },
   { name: 'REST APIs', level: 92, tag: 'ARCH', desc: 'Rate limiting, versioning, JWT' },
-  { name: 'Git & CI/CD', level: 80, tag: 'DEVOPS', desc: 'GitHub Actions, branching, deploy' },
 ];
 
 const POSITIONS = [

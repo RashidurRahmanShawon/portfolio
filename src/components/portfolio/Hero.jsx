@@ -3,9 +3,9 @@ import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 
 const TYPING_STRINGS = [
   'Full Stack Developer',
-  'Discord Bot Developer',
-  'Automation Tools',
-  'Modern Web Experiences',
+  'Automation Engineer',
+  'Systems Architect',
+  'Interactive Web Experiences',
 ];
 
 /**

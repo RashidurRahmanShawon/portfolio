@@ -13,11 +13,11 @@ const timeline = [
   },
   {
     period: '2024',
-    role: 'Built Discord bots, automation systems, and first full-stack projects.',
+    role: 'Developed full-stack applications, automation systems, and interactive web platforms.',
     org: 'Personal projects',
     description:
-      'Launched Discord bots for moderation and utility, plus the first full-stack applications with live data and user interaction.',
-    highlights: ['Discord.js', 'Express', 'MongoDB', 'React'],
+      'Built end-to-end applications with real-time data processing, complex backend automation, and responsive frontends. Developed bots and systems that handle community management and process automation at scale.',
+    highlights: ['Full-Stack', 'Automation', 'MongoDB', 'React'],
     side: 'left',
   },
   {
@@ -31,11 +31,11 @@ const timeline = [
   },
   {
     period: '2026',
-    role: 'Building advanced real-time systems, dashboards, and interactive web platforms.',
+    role: 'Scaling full-stack solutions with advanced automation and real-time systems.',
     org: 'Current focus',
     description:
-      'Working on modern real-time interfaces, Discord bot ecosystems, and backend automation tools designed for scale and reliability.',
-    highlights: ['Real-time', 'Bots', 'Dashboards', 'Scalability'],
+      'Focusing on enterprise-grade backend systems, intelligent automation frameworks, real-time collaborative applications, and production-ready API architectures. Building solutions that scale with reliability and maintainability.',
+    highlights: ['Full-Stack', 'Automation', 'Scalability', 'Architecture'],
     side: 'left',
   },
 ];
