@@ -1646,7 +1646,7 @@ function BrowserApp() {
   };
 
   const handleHome = () => {
-    navigateTo('https://www.google.com/webhp?igu=1');
+    navigateTo(`${window.location.origin}${window.location.pathname}#hero`);
   };
 
   return (

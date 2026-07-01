@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/portfolio/Navbar';
 import Hero from '../components/portfolio/Hero';
 import Projects from '../components/portfolio/Projects';
@@ -10,6 +10,14 @@ import Footer from '../components/portfolio/Footer';
 import { SkillFilterProvider } from '../context/SkillFilterContext';
 
 export default function Portfolio() {
+  useEffect(() => {
+    window.history.scrollRestoration = 'manual';
+    if (window.location.hash) {
+      window.history.replaceState({}, document.title, window.location.pathname + window.location.search);
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <SkillFilterProvider>
     <div className="bg-obsidian min-h-screen overflow-x-hidden">
