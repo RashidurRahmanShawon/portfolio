@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 
 const TYPING_STRINGS = [
-  'Full Stack Developer',
   'Automation Engineer',
   'Systems Architect',
-  'Interactive Web Experiences',
+  'Backend Developer',
+  'Integration Specialist',
 ];
 
 /**
@@ -112,7 +112,7 @@ export default function Hero() {
               transition={{ delay: 0.2, duration: 0.6 }}
             >
               <span className="font-mono text-xs uppercase tracking-[0.2em] text-amber">
-                — Full-Stack & Bot Developer
+                — Automation & Systems Developer
               </span>
             </motion.div>
 
@@ -146,7 +146,7 @@ export default function Hero() {
               transition={{ delay: 0.75, duration: 0.6 }}
               className="text-iron text-base leading-relaxed max-w-md"
             >
-              I’m a self-taught developer focused on building fast, scalable, and user-focused applications. I specialize in Discord bots, backend systems, automation tools, and modern web interfaces with clean user experience.
+              I design and build robust backend systems, distributed architectures, scalable automation pipelines, and high-performance dashboard tools designed for fault tolerance and precision.
             </motion.p>
 
             <motion.div
@@ -156,16 +156,16 @@ export default function Hero() {
               className="flex flex-wrap gap-4 pt-2"
             >
               <a
-                href="#projects"
+                href="#showcase"
                 className="font-mono text-xs uppercase tracking-widest bg-amber text-obsidian px-6 py-3 hover:bg-amber/90 transition-colors duration-200 min-h-[44px] flex items-center"
               >
-                View Projects
+                Systems Showcase
               </a>
               <a
-                href="#contact"
+                href="#playground"
                 className="font-mono text-xs uppercase tracking-widest border border-white/15 text-bone px-6 py-3 hover:border-amber/40 hover:text-amber transition-all duration-200 min-h-[44px] flex items-center"
               >
-                Contact Me
+                Interactive Lab
               </a>
             </motion.div>
 

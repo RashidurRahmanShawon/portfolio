@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -21,20 +20,26 @@ export default function Footer() {
 
           {/* Nav links */}
           <nav className="flex flex-wrap gap-6">
-            {['About', 'Skills', 'Work', 'Terminal', 'Contact'].map((link) => (
+            {[
+              { label: 'Showcase', href: '#showcase' },
+              { label: 'Interactive Lab', href: '#playground' },
+              { label: 'Skills', href: '#skills' },
+              { label: 'Principles', href: '#principles' },
+              { label: 'Access', href: '#contact' },
+            ].map((link) => (
               <a
-                key={link}
-                href={`#${link.toLowerCase()}`}
+                key={link.label}
+                href={link.href}
                 className="font-mono text-xs uppercase tracking-widest text-iron/40 hover:text-amber transition-colors duration-200"
               >
-                {link}
+                {link.label}
               </a>
             ))}
           </nav>
 
           {/* Copyright */}
           <p className="font-mono text-xs text-iron/40">
-            Designed & developed by Rashidur Rahman Shawon.
+            © {year} Rashidur Rahman Shawon. All rights reserved.
           </p>
         </div>
       </div>

@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const links = [
-  { label: 'About', href: '#about' },
+  { label: 'Showcase', href: '#showcase' },
+  { label: 'Interactive Lab', href: '#playground' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Work', href: '#projects' },
-  { label: 'Terminal', href: '#terminal' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Principles', href: '#principles' },
+  { label: 'Access', href: '#contact' },
 ];
 
 export default function Navbar() {
@@ -52,7 +52,7 @@ export default function Navbar() {
             href="#contact"
             className="font-mono text-xs uppercase tracking-widest border border-amber/40 text-amber px-4 py-2 hover:bg-amber hover:text-obsidian transition-all duration-200"
           >
-            Hire Me
+            Request Access
           </a>
         </nav>
 

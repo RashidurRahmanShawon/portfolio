@@ -28,9 +28,9 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="flex items-center gap-3 mb-16"
         >
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-amber">09</span>
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-amber">05</span>
           <div className="w-8 h-px bg-amber/40" />
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-iron">Contact</span>
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-iron">Access request</span>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
